@@ -6,7 +6,7 @@ This is a small tool that prefaces my upcoming project: **Sly**.
 ## Usage
 Compilation and deployment of the vulnerability is up to the attacker. All it requires is that you have a valid email address to receive the collected information and code execution on the target system.
 
-In thirdeye.c, edit the email address that you would like to receive the information from. Then, you will define the password that your encrypted archive will use. If you know your target is running in a vm and would like to execute the program regardless, change the ```vmDetect = True``` to ```vmDetect = False```. Then compile as you typically would.
+In thirdeye.cpp, edit the email address that you would like to receive the information from. Then, you will define the password that your encrypted archive will use. If you know your target is running in a vm and would like to execute the program regardless, change the ```vmDetect = True``` to ```vmDetect = False```. Then compile as you typically would.
   ```bash
 //standard gcc usage
   g++ thirdeye.cpp -o thirdeye
