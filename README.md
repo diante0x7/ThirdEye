@@ -1,7 +1,7 @@
 # ThirdEye
 ThirdEye is a browser data extraction tool that utilizes VM detection, debugger detection and email exfiltration that targets linux-flavored machines.
 
-This is a small project that prefaces my upcoming project: **Sly**.
+This is a small tool that prefaces my upcoming project: **Sly**.
 
 ## Usage
 Compilation and deployment of the vulnerability is up to the attacker. All it requires is that you have a valid email address to receive the collected information and code execution on the target system.
