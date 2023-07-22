@@ -9,7 +9,7 @@ Compilation and deployment of the vulnerability is up to the attacker. All it re
 In thirdeye.c, edit the email address that you would like to receive the information from. Then, you will define the password that your encrypted archive will use. If you know your target is running in a vm and would like to execute the program regardless, change the ```vmDetect = True``` to ```vmDetect = False```. Then compile as you typically would.
   ```bash
 //standard gcc usage
-  gcc thirdeye.c -o thirdeye
+  g++ thirdeye.cpp -o thirdeye
   ```
 
 Once it is deployed on the target machine, one of these two actions will occur:
